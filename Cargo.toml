@@ -1,0 +1,20 @@
+[package]
+name = "hello_app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "app1"
+path = "src/app1/main.rs"
+
+[[bin]]
+name = "app2"
+path = "src/app2/main.rs"
+
+[profile.release]
+panic = "abort"
+
+
+[dependencies]
