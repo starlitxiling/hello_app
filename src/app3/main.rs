@@ -3,6 +3,8 @@
 
 static mut COUNTER: u32 = 0;
 
+
+// it's a loop app
 #[no_mangle]
 pub unsafe extern "C" fn _start() -> ! {
     loop {
