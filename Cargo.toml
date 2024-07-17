@@ -13,6 +13,10 @@ path = "src/app1/main.rs"
 name = "app2"
 path = "src/app2/main.rs"
 
+[[bin]]
+name = "app3"
+path = "src/app3/main.rs"
+
 [profile.release]
 panic = "abort"
 
